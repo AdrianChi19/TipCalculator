@@ -18,7 +18,7 @@ namespace TipCalculator.Maui.Models
 
         public decimal ImporteDeLaPropinaPorPersona => ImporteDeLaPropina / NumeroDePersonas;
 
-        public decimal ImporteTotalConPropina => ImporteDelConsumo * ImporteDeLaPropina;
+        public decimal ImporteTotalConPropina => ImporteDelConsumo + ImporteDeLaPropina;
 
         public decimal ImporteTotalConPropinaPorPersona => ImporteTotalConPropina / NumeroDePersonas;
 
